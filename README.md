@@ -1,1 +1,64 @@
-# Gourmet-Food-Supplier-Sales-Analysis
+# Gourmet Food Supplier - Data Analysis (Northwind Traders)
+
+## 📚 Table of Contents
+- [Project Overview](#project-overview)
+- [Business Objectives](#business-objectives)
+- [Tools & Technologies](#tools--technologies)
+- [Dataset Description](#dataset-description)
+- [Data Cleaning](#data-cleaning)
+- [Visualizations](#visualizations)
+- [How to Run the Project](#how-to-run-the-project)
+- [Conclusion](#conclusion)
+
+---
+
+## Project Overview
+
+This project analyzes the business operations of **Northwind Traders**, a global gourmet food supplier. The dataset simulates a real-world relational database containing information on customers, products, orders, employees, suppliers, and shippers.
+
+The goal is to perform end-to-end data analysis to extract actionable insights on sales performance, customer behavior, supplier relationships, and shipping efficiency.
+
+This analysis demonstrates the use of relational data handling, business KPIs tracking, and storytelling with dashboards.
+
+---
+
+## Business Objectives
+
+- Track overall and category-wise sales performance
+- Identify high-value customers and sales regions
+- Evaluate employee contributions to sales
+- Measure shipping efficiency and supplier reliability
+
+---
+
+## Tools & Technologies
+- **SQL**      - Utilized mysql server to handle mising values and for Exploratory Data Analysis (EDA).
+- **Power Bi** -For building Dashboards and Data Visulization.
+
+---
+
+## Dataset Description
+
+This project has 7 tables which help us to analyzze the sales report
+
+- **Products table**  - Consists of data related to the products, their unit price, quantity.
+- **Customers table** - Contains the informatio about customers, company name, contact details, city.
+- **Employee table**  - Employee deatils including project title.
+- **Orders**  - Details about who ordered, order date, shipping date.
+- **Order details** - Consists of details of evry order.
+- **Categories** - Product and its catrgory brocher.
+- **Shippers** - Info about shippers like name.
+
+## Data Cleaning
+
+- Performed initial data cleaning using MySQL Workbench, focusing on identifying and resolving duplicate and null values across key tables.
+
+- Addressed missing data systematically by applying appropriate treatments such as imputation, exclusion, or flagging, based on business logic and context.
+
+- Removed irrelevant or redundant rows that did not contribute to meaningful analysis (e.g., incomplete transactions, test records).
+
+## Exploratory Data Analysis (EDA)
+
+Explored each and every table with the help of primary keys and join.
+
+
