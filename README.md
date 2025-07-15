@@ -57,8 +57,8 @@ This project has 7 tables which help us to analyzze the sales report
 
 - Removed irrelevant or redundant rows that did not contribute to meaningful analysis (e.g., incomplete transactions, test records).
 
-## Exploratory Data Analysis (EDA)
+- Performed Exploratory Data Analysis on each and every table using primary key and with the help of joins.
+- Below is the Sql file with all the queries performed.
 
-Explored each and every table with the help of primary keys and join.
-
+[Northwind SQL file](#northwind.sql)
 
