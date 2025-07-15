@@ -60,5 +60,5 @@ This project has 7 tables which help us to analyzze the sales report
 - Performed Exploratory Data Analysis on each and every table using primary key and with the help of joins.
 - Below is the Sql file with all the queries performed.
 
-[`Northwind SQL file`](#northwind.sql)
+  🔗 [`Northwind SQL file`](northwind.sql)
 
